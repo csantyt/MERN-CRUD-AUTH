@@ -1,0 +1,55 @@
+/* Navbar.css */
+
+.navbar {
+  position: fixed; /* Hace que se quede siempre en la parte superior */
+  top: 0;
+  left: 0;
+  right: 0;
+  z-index: 1000; /* Asegura que esté por encima de otros elementos */
+  background-color: #3f3f46;
+  padding: 20px 40px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  border-bottom: 2px solid #27272a;
+  width: 100%;
+  box-sizing: border-box;
+}
+
+.navbar-title h1 {
+  font-size: 36px;
+  font-weight: bold;
+  color: rgb(10, 172, 221);
+  margin: 0;
+  border: none;
+  box-shadow: none;
+  text-decoration: none;
+  outline: none;
+}
+
+.navbar-links {
+  display: flex;
+  gap: 24px;
+  list-style: none;
+  padding: 0;
+  margin: 0;
+}
+
+.navbar-links li {
+  font-size: 18px;
+}
+
+.navbar-links a {
+  color: rgb(239, 235, 235);
+  text-decoration: none;
+  transition: color 0.3s ease;
+}
+
+.navbar-links a:hover {
+  color: #0f07f1;
+}
+
+.navbar-username {
+  color: rgb(7, 177, 233);
+  font-size: 18px;
+}

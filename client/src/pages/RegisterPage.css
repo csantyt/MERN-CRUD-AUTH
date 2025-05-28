@@ -1,0 +1,83 @@
+/* RegisterPage.css */
+
+.container {
+  display: flex;
+  height: calc(100vh - 100px);
+  align-items: center;
+  justify-content: center;
+  background-color: #1a1a1a; /* fondo oscuro igual que login */
+}
+
+.form-container {
+  background-color: #27272a; /* igual al login */
+  max-width: 28rem;
+  width: 100%;
+  padding: 2.5rem;
+  border-radius: 6px;
+  box-sizing: border-box;
+}
+
+/* Mensajes de error */
+.error-message {
+  background-color: #ef4444;
+  padding: 0.5rem;
+  color: white;
+  margin-bottom: 0.5rem;
+  border-radius: 0.25rem;
+}
+
+/* Campos de entrada */
+.input-field {
+  width: 100%;
+  background-color: #3f3f46;
+  color: white;
+  padding: 0.5rem 1rem;
+  border-radius: 6px;
+  margin-bottom: 0.75rem;
+  border: none;
+  outline: none;
+  font-size: 1rem;
+}
+
+/* Mensajes de error debajo de inputs */
+.input-error {
+  color: #ef4444;
+  font-size: 0.875rem;
+  margin-top: -0.4rem;
+  margin-bottom: 0.5rem;
+}
+
+/* Botón */
+.button-submit {
+  background-color: #3b82f6;
+  color: white;
+  padding: 0.5rem 1rem;
+  border-radius: 6px;
+  border: none;
+  cursor: pointer;
+  font-weight: 600;
+  font-size: 1rem;
+  margin-top: 1rem;
+  width: 100%;
+}
+
+/* Enlace al login */
+.text-link-wrapper {
+  display: flex;
+  gap: 0.5rem;
+  justify-content: space-between;
+  margin-top: 1rem;
+  width: 100%;
+  font-size: 1rem;
+  color: white;
+}
+
+.login-link {
+  color: #3b82f6;
+  text-decoration: none;
+  font-weight: 600;
+}
+
+.login-link:hover {
+  text-decoration: underline;
+}

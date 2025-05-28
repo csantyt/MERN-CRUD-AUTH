@@ -1,0 +1,61 @@
+/* TaskFormPage.css */
+
+/* Contenedor centrado como en login/register */
+.task-container {
+  display: flex;
+  height: calc(100vh - 100px);
+  align-items: center;
+  justify-content: center;
+  background-color: #1a1a1a;
+}
+
+/* Caja blanca con padding y bordes redondeados */
+.task-form {
+  background-color: #27272a;
+  max-width: 28rem;
+  width: 100%;
+  padding: 2.5rem;
+  border-radius: 0.5rem;
+  box-sizing: border-box;
+}
+
+/* Input de texto */
+.task-input {
+  width: 100%;
+  background-color: #3f3f46;
+  color: white;
+  padding: 0.5rem 1rem;
+  border-radius: 0.375rem;
+  margin-top: 0.5rem;
+  margin-bottom: 0.75rem;
+  border: none;
+  outline: none;
+  font-size: 1rem;
+}
+
+/* Textarea */
+.task-textarea {
+  width: 100%;
+  background-color: #3f3f46;
+  color: white;
+  padding: 0.5rem 1rem;
+  border-radius: 0.375rem;
+  margin-bottom: 0.75rem;
+  border: none;
+  outline: none;
+  font-size: 1rem;
+  resize: vertical;
+}
+
+/* Botón guardar */
+.task-button {
+  background-color: #3b82f6;
+  color: white;
+  padding: 0.5rem 1rem;
+  border-radius: 0.375rem;
+  border: none;
+  cursor: pointer;
+  font-weight: 600;
+  font-size: 1rem;
+  width: 100%;
+}

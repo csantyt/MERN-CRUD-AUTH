@@ -1,0 +1,42 @@
+/* LoginPage.css */
+.container {
+  display: flex;
+  height: calc(100vh - 100px);
+  align-items: center;
+  justify-content: center;
+  background-color: #1a1a1a; /* fondo oscuro opcional */
+}
+
+.form-container {
+  background-color: #27272a; /* gris oscuro */
+  max-width: 28rem;
+  width: 100%;
+  padding: 2.5rem;
+  border-radius: 6px;
+}
+
+.input {
+  width: 100%;
+  background-color: #3f3f46;
+  color: white;
+  padding: 0.5rem 1rem;
+  border-radius: 6px;
+  margin-bottom: 0.75rem;
+  border: none;
+  outline: none;
+}
+
+.button {
+  background-color: #3b82f6; /* azul */
+  color: white;
+  padding: 0.5rem 1rem;
+  border-radius: 6px;
+  border: none;
+  cursor: pointer;
+}
+
+.error {
+  color: #ef4444; /* rojo */
+  font-size: 0.875rem;
+  margin-bottom: 0.75rem;
+}

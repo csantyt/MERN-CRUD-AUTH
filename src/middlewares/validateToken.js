@@ -5,7 +5,7 @@ export const authRequired = (req, res, next)=> {
     const { token } = req.cookies;
 
     if (!token){
-        return res.status(401).json({message: "No Token, autorizacion denegaada"});
+        return res.status(401).json({message: "No Token, autorizacion denegada"});
     }
         jwt.verify(token, TOKEN_SECRET, (err, user) =>{
             if (err){ 
